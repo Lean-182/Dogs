@@ -1,0 +1,88 @@
+.Home {
+    background: radial-gradient(circle at top left, #fdbb2d, #22c1c3);
+}
+
+.HomeSelectContainer {
+    padding: 25px;
+    margin-bottom: 35px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 2px;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    background: inherit;
+    overflow: hidden;
+}
+
+.HomeSelectContainer:before {
+    content: "";
+    position: absolute;
+    background: inherit;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    filter: blur(10px);
+    margin: -20px;
+}
+
+.HomeSelect {
+    cursor: pointer;
+    width: 130px;
+    height: 30px;
+    margin-right: 15px;
+    color: rgba(22, 21, 21, 0.918);
+}
+
+.HomeContenedorCards {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 20px 5px;
+    margin: 25px;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+    border-radius: 5px;
+    background: inherit;
+    overflow: hidden;
+    z-index: 1;
+    position: relative;
+}
+
+.HomeContenedorCards:before {
+    content: "";
+    position: absolute;
+    background: inherit;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    filter: blur(10px);
+    margin: -20px;
+}
+
+.CardStylesText {
+    text-decoration: none;
+}
+
+.HomeDogh1 {
+    color: #355a6b;
+    font-size: 40px;
+}
+
+.DivMensajeBusquedaVacia {
+  padding-bottom: 300px;
+}
+
+.CreatedSelect {
+    cursor: pointer;
+    width: 130px;
+    height: 30px;
+    margin-right: 15px;
+    color: rgba(22, 21, 21, 0.918);
+}

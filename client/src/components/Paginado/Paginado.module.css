@@ -1,0 +1,56 @@
+.Paginado {
+    text-align:center;
+    margin: 0px;
+    padding-top: 10px;
+    margin: 0px 25px;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+    border-radius: 5px;
+    z-index: 1;
+    background: inherit;
+    overflow: hidden;
+    position: relative;
+}
+
+.Paginado:before {
+    content: "";
+    position: absolute;
+    background: inherit;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    filter: blur(10px);
+    margin: -20px;
+}
+
+.Paginadoul {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.Paginadoli {
+    display: inline;
+}
+
+.PaginadoButton {
+    background-color: #b3def1;
+    float: left;
+    padding: 5px 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.PaginadoButtonOff {
+    background-color:#446D80;
+    float: left;
+    padding: 5px 10px;
+    text-decoration: none;
+    cursor: pointer;      
+}
+
+.PaginadoButtonOff:hover {
+    background-color:#9fbecc;
+}

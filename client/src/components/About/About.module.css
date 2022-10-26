@@ -1,0 +1,11 @@
+.AboutDiv {
+    color: #254053;
+    font-size: 20px;
+}
+
+.DivContainerAbout {
+    background: radial-gradient(circle at top left, #fdbb2d, #22c1c3);
+
+    height: 800px;
+}
+

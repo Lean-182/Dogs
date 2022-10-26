@@ -1,0 +1,110 @@
+.Detail {
+    color: #254053;
+    background: radial-gradient(circle at top left, #fdbb2d, #22c1c3);
+}
+
+
+.DivContainer {
+    margin: 20px 30px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 35px;
+    margin-bottom: 0px;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+    border-radius: 5px;
+    z-index: 1;
+    background: inherit;
+    overflow: hidden;
+    position: relative;
+}
+
+.DivContainer:before {
+    content: "";
+    position: absolute;
+    background: inherit;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    filter: blur(10px);
+    margin: -20px;
+}
+
+
+.DetailImg {
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.DivContainer h2 {
+    display: inline-block;
+}
+
+.DivContainer h3 {
+    display: inline-block;
+}
+
+.DivTemperaments h2 {
+    display: block;
+}
+
+.DivLifeExpectancy h2 {
+    margin-right: 22px;
+}
+
+.DivHeight h2 {
+    margin-right: 50px;
+}
+
+.DivWeight h2{
+    margin-right: 50px;
+}
+
+.DivWeight {
+    margin-top: 20px;
+}
+
+.ButtonEliminar {
+    background-color: #E04338;
+    border: none;
+    color: #254053;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+    margin: 0%;
+    cursor: pointer;
+    opacity: 100;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    height: 40px;
+    width: 150px;
+}
+
+.ButtonEliminar:hover {
+    background-color: #f14e42;
+}
+
+
+.DetailDivContainer {
+    margin-bottom: 20px;
+}
+
+.DivContainerResto {
+    margin: 25px 100px;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    background: inherit;
+    overflow: hidden;
+}
+
